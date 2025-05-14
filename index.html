@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carpintucho</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Iconos -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Model Viewer -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+</head>
+<body>
+  <div class="container">
+    <!-- Menú lateral -->
+    <div class="navigation">
+      <div class="menu-toggle"></div>
+      <ul class="list">
+        <li class="list-item active" data-id="inicio" style="--color:#f44336">
+          <a href="#"><span class="icon"><ion-icon name="home-outline"></ion-icon></span><span class="text">INICIO</span></a>
+        </li>
+        <li class="list-item" data-id="nosotros" style="--color:#ffa117">
+          <a href="#"><span class="icon"><ion-icon name="alert-outline"></ion-icon></span><span class="text">SOBRE NOSOTROS</span></a>
+        </li>
+        <li class="list-item" data-id="telefono" style="--color:#0fc70f">
+          <a href="#"><span class="icon"><ion-icon name="call-outline"></ion-icon></span><span class="text">TELEFONO</span></a>
+        </li>
+        <li class="list-item" data-id="mas" style="--color:#2196f3">
+          <a href="#"><span class="icon"><ion-icon name="grid-outline"></ion-icon></span><span class="text">MAS</span></a>
+        </li>
+        <li class="list-item" data-id="detalles" style="--color:#b145e9">
+          <a href="#"><span class="icon"><ion-icon name="pencil-outline"></ion-icon></span><span class="text">DETALLES</span></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="main-content" id="mainContent">
+      <h1>Bienvenido a Carpintucho</h1>
+      <p>Este es el espacio donde puedes agregar información, imágenes, formularios o lo que quieras.</p>
+      <img src="/1.jpg" alt="" style="border-radius: 10px; margin-top: 20px;">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
